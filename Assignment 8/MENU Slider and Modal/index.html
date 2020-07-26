@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/2f271d0c4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Landing Page</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle"><i class="fa fa-bars fa-2x"></i></button>
+        
+        <h1>My Landing Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam laborum deserunt unde fuga reiciendis?</p>
+    
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <h2>What is this landing page about?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque eius itaque beatae maxime nobis! Ut laboriosam, error tenetur atque eligendi, aperiam similique quibusdam, temporibus cum asperiores suscipit illum ratione.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, atque quasi. Minus repudiandae enim, dolor incidunt consectetur optio qui deserunt!</p>
+        
+        <h2>Tell Me More</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro optio vero necessitatibus iusto accusantium repudiandae ab, cupiditate, aliquid deserunt quibusdam, quos totam non soluta beatae fuga suscipit nostrum odit sit corporis harum doloribus illo possimus sequi? Optio autem ipsam consectetur?</p>
+        
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut necessitatibus laboriosam sint, animi exercitationem magni. Nesciunt blanditiis architecto explicabo. Tenetur laborum commodi dolorum perferendis sunt, alias qui ratione, nesciunt, ea numquam maxime obcaecati? Aperiam excepturi labore nesciunt quasi soluta fugit sequi magni ipsam, sed beatae pariatur illum numquam provident dolorum magnam, animi ullam fugiat reiciendis quas iure voluptatem dolor perspiciatis. Rem velit natus explicabo harum nulla asperiores labore eveniet.</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn " id="close"><i class="fa fa-times"></i></button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get more offers, support and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" class="form-input" id="name" placeholder="Enter Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" class="form-input" id="email" placeholder="Enter email">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" class="form-input" id="password" placeholder="Enter Password">
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" class="form-input" id="password2" placeholder="Confirm Password">
+                    </div>
+                    <input type="submit" value="submit" class="submit-btn">
+                </form>
+            </div> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
